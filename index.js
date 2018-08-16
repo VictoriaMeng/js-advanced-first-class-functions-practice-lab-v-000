@@ -12,6 +12,6 @@ function driversByRevenue(drivers) {
 };
 function driversByName(drivers) {
   return [...drivers].sort(function (a, b) {
-    return a.localeCompare(b);
+    a.localeCompare(b);
   });
 };
