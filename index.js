@@ -6,7 +6,7 @@ function logDriversByHometown(drivers, town) {
   logDriverNames(drivers.filter(driver => driver.hometown == town));
 };
 function driversByRevenue(drivers) {
-  return [...newDrivers].sort(function (a, b) {
+  return [...drivers].sort(function (a, b) {
     return a.revenue - b.revenue;
   });
 };
