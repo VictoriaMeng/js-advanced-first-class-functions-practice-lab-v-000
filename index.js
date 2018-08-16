@@ -16,5 +16,5 @@ function driversByName(drivers) {
   });
 };
 function totalRevenue(drivers) {
-  
+  return drivers.reduce( (memo, driver) => memo + driver.revenue, 0 );
 }
